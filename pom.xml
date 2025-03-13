@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>one_to_one_Mapping</module>
+        <module>one_to_many_Mapping</module>
     </modules>
 
     <properties>

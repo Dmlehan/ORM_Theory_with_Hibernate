@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90faa49-57f6-431d-aeec-98327af1519b" name="Changes" comment="Main Crud operation (save,update,delete)" />
+    <list default="true" id="c90faa49-57f6-431d-aeec-98327af1519b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/one_to_many_Mapping/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_to_one_Mapping/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_one_Mapping/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2uFbwuYmkg81jqYkQDWDpfOHbNJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,7 +47,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "D:/A1AAA-2025D JDSE/SEM 02/ORM/Extra session/Orm/one_to_one_Mapping/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "D:/A1AAA-2025D JDSE/SEM 02/ORM/Extra session/Orm/one_to_many_Mapping/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.38467434",
@@ -58,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741847511946</updated>
-      <workItem from="1741847512885" duration="12663000" />
+      <workItem from="1741847512885" duration="17298000" />
     </task>
     <task id="LOCAL-00001" summary="Main Crud operation (save,update,delete)">
       <option name="closed" value="true" />
@@ -84,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741861110447</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Main Crud operation (save,update,delete) and One to one mapping Hibernate Property Configuration">
+      <option name="closed" value="true" />
+      <created>1741861810501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741861810501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main Crud operation (save,update,delete)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main Crud operation (save,update,delete)" />
+    <MESSAGE value="Main Crud operation (save,update,delete) and One to one mapping Hibernate Property Configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main Crud operation (save,update,delete) and One to one mapping Hibernate Property Configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -101,6 +119,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>30</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/one_to_many_Mapping/src/main/java/org/example/Main.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
