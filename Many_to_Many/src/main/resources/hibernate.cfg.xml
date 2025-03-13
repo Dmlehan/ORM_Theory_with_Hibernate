@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url"/>
+    <property name="connection.driver_class"/>
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql//localhost:3306/lps</property>
+    <property name="hibernate.connection.password">1234</property>
+    <property name="hibernate.conection.username" >root</property>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+    <!--    terminala eken  run wena query balaganna adala eja print wena for only debugging-->
+    <property name="hibernate.show_Sql">true</property>
+
+    <!--    hibernate define how to  handle database  -->
+    <!--    it is not only update (create , createdrop)-->
+    <property name="hibernate.hbm2ddl.auto">update</property>
+
+
+  </session-factory>
+</hibernate-configuration>

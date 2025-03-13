@@ -11,6 +11,7 @@
     <modules>
         <module>one_to_one_Mapping</module>
         <module>one_to_many_Mapping</module>
+        <module>Many_to_Many</module>
     </modules>
 
     <properties>
