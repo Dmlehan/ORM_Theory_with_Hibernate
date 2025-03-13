@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<!--  session -->
+  <session-factory>
+<!--    <property name="connection.driver_class"/>-->
+
+<!--    driver class ekaka one connection ekak hadaganna-->
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+<!--     database ekaka hadaganna database url eka denna one -->
+    <property name="hibernate.connection.url"> jdbc:mysql://localhost:3306/hibernatetool</property>
+
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">1234</property>
+<!--    /////////////////////////////////////////////-->
+
+<!--    onsms database ekak link karaganna hibanate hadala  thiyenne dan api use karanne mysql nisa my sql syntax hadunaganna my sql dialect use karala thiyenne -->
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+<!--    terminala eken  run wena query balaganna adala eja print wena for only debugging-->
+    <property name="hibernate.show_Sql">true</property>
+
+<!--    hibernate define how to  handle database  -->
+<!--    it is not only update (create , createdrop)-->
+    <property name="hibernate.hbm2ddl.auto">update</property>
+
+
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>
